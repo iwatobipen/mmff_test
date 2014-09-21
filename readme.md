@@ -20,6 +20,10 @@ File format must be <smiles> tab <id>, and has header line.
 ```
 python gen3d_conf_from_smi_v2.py <yoursmiles.smi>
 ```
+or write log in file.
+```
+python gen3d_conf_from_smi_v2.py <yoursmiles.smi> > log.txt
+```
 
 Dependency
 -----------
